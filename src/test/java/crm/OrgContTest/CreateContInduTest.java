@@ -10,6 +10,7 @@ import crm.POMRepository.OrganizationPage;
 public class CreateContInduTest extends BaseUtility {
 	@Test (groups = {"ST" , "RT"})
 	public void createOrgIndAnnotationTest() throws IOException {
+		System.out.println();
 		int lastRow = eLIB.rowCount("VTiger");
 		int lastCell = eLIB.cellCount("VTiger");
 		int append=jLIB.randomNumbers();
